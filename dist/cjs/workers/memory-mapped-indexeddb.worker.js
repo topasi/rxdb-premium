@@ -1,0 +1,1 @@
+var e=require("../plugins/storage-indexeddb/index.js"),r=require("../plugins/storage-memory-mapped/index.js"),g=require("../plugins/storage-worker/index.js"),o=(0,r.getMemoryMappedRxStorage)({storage:(0,e.getRxStorageIndexedDB)({})});(0,g.exposeWorkerRxStorage)({storage:o});

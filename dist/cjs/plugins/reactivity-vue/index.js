@@ -1,0 +1,1 @@
+Object.defineProperty(exports,"__esModule",{value:!0}),exports.VueRxReactivityFactory=void 0;var e=require("vue");exports.VueRxReactivityFactory={fromObservable(r,o){var t=(0,e.shallowRef)(o),s=r.subscribe((r=>{t.value=r,(0,e.triggerRef)(t)}));return(0,e.onScopeDispose)((()=>{s.unsubscribe()})),t}};

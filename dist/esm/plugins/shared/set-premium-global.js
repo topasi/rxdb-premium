@@ -1,0 +1,1 @@
+import{RXDB_UTILS_GLOBAL as m}from"rxdb/plugins/utils";export function setPremiumFlag(){m.premium="yesIgotRxDBPremiumAccess"}

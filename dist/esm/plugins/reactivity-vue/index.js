@@ -1,0 +1,1 @@
+import{shallowRef as r,triggerRef as e,onScopeDispose as u}from"vue";export var VueRxReactivityFactory={fromObservable(a,b){var t=r(b),v=a.subscribe((r=>{t.value=r,e(t)}));return u((()=>{v.unsubscribe()})),t}};

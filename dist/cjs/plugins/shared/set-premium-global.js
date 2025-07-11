@@ -1,0 +1,1 @@
+Object.defineProperty(exports,"__esModule",{value:!0}),exports.setPremiumFlag=r;var e=require("rxdb/plugins/utils");function r(){e.RXDB_UTILS_GLOBAL.premium="yesIgotRxDBPremiumAccess"}
